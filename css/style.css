@@ -57,7 +57,7 @@ body {
 	margin-bottom: 38px;
 
 }
-.hero-button{
+.button{
 	padding: 24px 42px;
 	font-size: 12px;
 	font-weight: bold;
@@ -84,4 +84,260 @@ background-image: url("../img/avatar.jpg");
 background-repeat: no-repeat;
 background-position: center 0px;
 border:13px solid #fff;
+}
+.section{
+	margin-top: 
+}
+.features{
+	background-color: #000000;
+}
+.features-block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.features-item{
+	flex-basis: 30%;
+	margin-bottom: 63px;
+}
+
+.features-image{
+	display: block;
+	margin-bottom: 22px;
+}
+.section-title {
+font-family: Roboto;
+font-size: 36px;
+line-height: 42px;
+	/*line-height: 28px;*/
+	margin: 0;
+	margin-bottom: 84px;
+	color: #FFFFFF;
+}
+
+.footer-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+color: #FFFFFF;
+}
+
+.features-text {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+	margin: 0;
+}
+.projects{
+	background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.projects-slide{
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 0;
+	margin-bottom: 108px;
+}
+.slider-text{
+	display: flex;
+	flex-basis: 60%;
+	flex-wrap: wrap;
+}
+.slider-time, .slider-cost, .slider-feedback{
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.slider-time, .slider-cost {
+	flex-basis: 50%;
+	margin-bottom: 44px;
+}
+.slider-feedback{
+	flex-basis: 100%;
+}
+.slider{
+/*	width: 927px;
+	height: 363px;
+*/}
+.project-icon{
+	margin-right: 16px;
+}
+.slider-text-title{
+	flex-basis: 100%;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+	margin: 0;
+	margin-bottom: 41px;
+}
+
+.project-img{
+	width: 338px;
+	height: 268px;
+}
+.project-icon{
+
+}
+.slider-subtitle{
+	margin: 0;
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+margin-bottom: 7px;
+flex-basis: 80%;
+}
+.slider-item-p{
+	margin: 0;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+
+footer{
+	background-color: #20202D;
+	background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+/*transform: matrix(1, 0, 0, -1, 0, 0);*/
+}
+
+.contacts-block{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.contacts-form{
+	/*position: absolute;*/
+    padding: 48px 40px 49px 40px;
+	width: 380px;
+	height: 409px;
+	/*left: 173px;*/
+	/*top: 2381px;*/
+
+	background: #FFFFFF;
+	box-shadow: -5px 5px 0px #FFC41D;
+	border-radius: 5px;
+	margin: 25px;
+}
+.form-title{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+margin: 0;
+margin-bottom: 29px;
+text-align: center;
+color: #000000;
+}
+/* or 156% */
+
+.contact-input{
+width: 100%;
+height: 63px;
+margin: 0;
+padding: 18px 20px;
+background: #F8F8F8;
+box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+border-radius: 5px;
+font-family: Roboto;
+font-weight: bold;
+font-size: 14px;
+line-height: 28px;
+color: #949494;
+/*font-style: normal;*/
+}
+.input{
+	border: none;
+}
+.input-name{
+margin-bottom: 17px;
+/*position: absolute;*/
+/*left: 208px;*/
+/*top: 2506px;*/
+/* identical to box height, or 200% */
+/*display: flex;*/
+/*align-items: center;*/
+}
+
+.input-phone{
+	margin-bottom: 26px;
+/*width: 309px;
+height: 63px;
+background: #F8F8F8;
+box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+border-radius: 5px;*/
+}
+.contacts-button{
+	width: 100%;
+}
+.contacts-text{
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 50%;
+}
+.contact-phone, .contact-mail {
+	flex-basis: 50%;
+}
+.contact-social {
+	flex-basis: 100%;
+	margin-bottom: 42px;
+}
+.contacts-text-item{
+	margin: 0;
+	margin-bottom: 53px;
+}
+.contacts-title{
+	font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+}
+
+.contacts-text-item a {
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+color: #fff;
+text-decoration: none;
+}
+
+.contacts-text-item a:hover {
+text-decoration: underline;
+}
+.contacts-text .social-link {
+	flex-wrap: wrap;
+    flex-basis: 50%;
+}
+.contacts-text .social-link:first {
+	color: red;
+}
+
+
+.contacts-policy{
+	display: inline-block;
+	font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+text-decoration-line: underline;
+
+color: #A5A5A5;
+
 }

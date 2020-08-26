@@ -2,10 +2,11 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Intensive</title>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	<title>Glo Academy Intensive</title>
+	<!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.min.css">
 </head>
 <body>
 	<header class="hero">
@@ -22,8 +23,8 @@
 		<!-- /.hero-header -->
 		<div class="hero-content">
 			<div class="hero-text">
-				<span class="hero-subtitle">Фрилансер</span>
-				<h1 class="hero-title">Сергей Артихович</h1>
+				<span class="hero-subtitle wow animate__bounce">Фрилансер</span>
+				<h1 class="hero-title ">Сергей Артихович</h1>
 				<p class="hero-description">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
 				<button class="button hero-button">Бесплатная консультация</button>
 			</div>
@@ -34,5 +35,121 @@
 		<!-- /.hero-content -->
 	</div>
 	</header>
+	<main class="app">
+		<section class="features section">
+			<div class="container">
+				<h2 class="section-title">Со мной удобно работать</h2>
+				<div class="features-block">
+					<div class="features-item">
+						<img src="img/features/storage-img.svg" alt="" class="features-image">
+						<h3 class="features-title">Хостинг и домен</h3>
+						<p class="features-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
+					</div>
+					<div class="features-item">
+						<img src="img/features/conversation-img.svg" alt="" class="features-image">
+						<h3 class="features-title">Не брошу после сдачи</h3>
+						<p class="features-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
+					</div>
+					<div class="features-item">
+						<img src="img/features/offer-img.svg" alt="" class="features-image">
+						<h3 class="features-title">По договору</h3>
+						<p class="features-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
+					</div>
+					<div class="features-item">
+						<img src="img/features/steps-img.png" alt="" class="features-image">
+						<h3 class="features-title">Премежуточные итоги</h3>
+						<p class="features-text">Показываю работу поэтапно, а не  в последий момент перед  крайним сроком.</p>
+					</div>
+					<div class="features-item">
+						<img src="img/features/agreement-img.svg" alt="" class="features-image">
+						<h3 class="features-title">Ценник под вас</h3>
+						<p class="features-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
+					</div>
+					<div class="features-item">
+						<img src="img/features/deadline-img.svg" alt="" class="features-image">
+						<h3 class="features-title">Точно в срок</h3>
+						<p class="features-text">В договоре прописана моя ответственность за срок проекта. Если просрочу — плачу неустойку.</p>
+					</div>
+				</div>
+				<!-- /.fitures-block -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /.features -->
+		<section class="projects section">
+			<div class="container">
+				<h2 class="section-title">Последние проекты</h2>
+				<div class="projects-slider">
+					<div class="projects-slide wow animate__animated animate__bounce">
+						<div class="project-img">
+							<img src="img\slider\project-img.png" alt="">
+						</div>
+						<div class="slider-text">
+							<h4 class="slider-text-title">Сайт строительной фирмы “Велстрой”</h4>
+							<div class="slider-time">
+								<img class="project-icon" src="img/projects/time-icon.svg" alt="сроки">
+								<h2 class="slider-subtitle">Сроки</h2>
+								<p class="slider-item-p">4 рабочих дня</p>
+							</div>
+							<div class="slider-cost">
+								<img class="project-icon" src="img/projects/cost-icon.svg" alt="Стоимость">
+								<h2 class="slider-subtitle">Стоимость</h2>
+								<p class="slider-item-p">$250</p>
+							</div>
+							<div class="slider-feedback">
+								<img class="project-icon" src="img/projects/feedback-icon.svg" alt="Отзыв клиента">
+								<h2 class="slider-subtitle">Отзыв клиента</h2>
+								<p class="slider-item-p">Мне понравилось работать с Артемом, потому что он все время был на связи и предлагал свои решения, когда мы заходили в тупик с дизайном. Мне нужны были закрывающие документы для бухгалтерии, и Артем — тот редкий фрилансер, у которого с документами все в порядке</p>
+							</div>
+						</div>
+						<div class="slider-dots"></div>
+					</div>
+				</div>
+				<!-- /.slider -->
+			</div>
+		</section>
+		<!-- /.projects -->
+	<footer class="section">
+		<div class="container">
+			<h2 class="section-title">Свяжитесь со мной</h2>
+			<div class="contacts-block">
+				<form action="#" class="contacts-form">
+					<div class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</div>
+					<input type="text" class="input contact-input input-name" placeholder="Ваше имя">
+					<input type="text" class="input contact-input input-phone" placeholder="Ваш телефон">
+					<button class="button contacts-button">Бесплатная консультация</button>
+				</form>
+				<div class="contacts-text">
+					<div class="contacts-text-item contact-phone">
+						<h4 class="contacts-title">Телефон</h4>
+						<a href="+37529232323">+375 29 232323</a>
+					</div>
+					<div class="contacts-text-item contact-mail">
+						<h4 class="contacts-title">Почта</h4>
+						<a href="artys74@mail.ru"></a>
+					</div>
+					<div class="contacts-text-item contact-social">
+						<h4 class="contacts-title">Соцсети</h4>
+						<a href="github.com" class="contacts-link">contacts-link</a>
+						<a href="" class="contacts-link">contacts-link</a>
+						<a href="" class="contacts-link">contacts-link</a>
+					</div>
+					<div class="social-link">
+						<a href="http://github.com" class="social-link"><img src="img/social/github.svg" alt=""></a>
+						<a href="http://twitter.com" class="social-link"><img src="img/social/twitter.svg" alt=""></a>
+						<a href="http://telegram.com" class="social-link"><img src="img/social/instagram.svg" alt=""></a>
+						<a href="http://fb.com" class="social-link"><img src="img/social/facebook.svg" alt=""></a>
+					</div>
+					<div class="contacts-policy">Политика конфиденциальности</div>
+				</div>
+				<!-- /.contacts-text -->
+			</div>
+			<!-- /.contacts-block -->
+		</div>
+	</footer>
+	</main>
+	<script src="js/wow.min.js"></script>
+	<script>new WOW().init();</script>
+
 </body>
 </html>
